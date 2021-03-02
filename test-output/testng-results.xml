@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="21241" started-at="2021-03-02T18:58:39 IST" finished-at="2021-03-02T18:59:00 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="21241" started-at="2021-03-02T18:58:39 IST" finished-at="2021-03-02T18:59:00 IST">
+      <class name="tests.SanityAddProductToCart">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="beforeClass" is-config="true" duration-ms="7455" started-at="2021-03-02T18:58:39 IST" finished-at="2021-03-02T18:58:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="beforeMethod" is-config="true" duration-ms="6" started-at="2021-03-02T18:58:46 IST" finished-at="2021-03-02T18:58:46 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SanityAddProductToCart.getIntoProduct() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="getIntoProduct()[pri:1, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="getIntoProduct" duration-ms="5778" started-at="2021-03-02T18:58:46 IST" description="Click on specific product" finished-at="2021-03-02T18:58:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getIntoProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="afterMethod" is-config="true" duration-ms="489" started-at="2021-03-02T18:58:52 IST" finished-at="2021-03-02T18:58:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getIntoProduct status=SUCCESS method=SanityAddProductToCart.getIntoProduct()[pri:1, instance:tests.SanityAddProductToCart@3a5ed7a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.reflect.Method)[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2021-03-02T18:58:53 IST" finished-at="2021-03-02T18:58:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.SanityAddProductToCart.serachProduct() throws java.lang.InterruptedException,java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="serachProduct()[pri:1, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="serachProduct" duration-ms="5918" started-at="2021-03-02T18:58:53 IST" description="Search for specific product" finished-at="2021-03-02T18:58:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- serachProduct -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="afterMethod" is-config="true" duration-ms="477" started-at="2021-03-02T18:58:59 IST" finished-at="2021-03-02T18:58:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=serachProduct status=SUCCESS method=SanityAddProductToCart.serachProduct()[pri:1, instance:tests.SanityAddProductToCart@3a5ed7a6] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.SanityAddProductToCart@3a5ed7a6]" name="afterClass" is-config="true" duration-ms="1042" started-at="2021-03-02T18:58:59 IST" finished-at="2021-03-02T18:59:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.SanityAddProductToCart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
