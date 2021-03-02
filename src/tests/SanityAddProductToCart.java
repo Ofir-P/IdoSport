@@ -107,9 +107,9 @@ public class SanityAddProductToCart {
 	 *  Ofir, 02/03/2021
 	 */
 	
-	@Test(priority = 4, enabled = true, description = "Click on specific product")
+	@Test(priority = 4, enabled = true, description = "Add item to cart")
 	public void addProductToCart() throws InterruptedException, IOException {	
-		
+		product.addToCart();
 	}
 	
 	

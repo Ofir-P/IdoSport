@@ -21,10 +21,7 @@ public class Product extends Base {
 	}
 	
 	public void addToCart() {
-		click(By.id("%d7%91%d7%97%d7%a8-%d7%99-%d7%9e%d7%a9%d7%a7%d7%9c"));
-		action = new Actions(driver);
-		action.sendKeys(Keys.ARROW_DOWN).build().perform();
-		action.sendKeys(Keys.ENTER).build().perform();
+		click(By.xpath("/html/body/div[2]/div/section[5]/div/div/div/div/div/div[5]/div/div/form/div/div[2]/button"));
 				
 	}
 }
