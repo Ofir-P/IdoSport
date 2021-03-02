@@ -6,7 +6,7 @@
       <class name="tests.SanityAddProductToCart">
         <methods>
           <include name="afterMethod"/>
-          <include name="serachProduct"/>
+          <include name="addProductToCart"/>
           <include name="afterClass"/>
           <include name="beforeMethod"/>
           <include name="beforeClass"/>

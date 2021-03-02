@@ -82,9 +82,34 @@ public class SanityAddProductToCart {
 	 *  Ofir, 02/03/2021
 	 */
 	
-	@Test(priority = 1, enabled = true, description = "Click on specific product")
+	@Test(priority = 2, enabled = true, description = "Click on specific product")
 	public void getIntoProduct() throws InterruptedException, IOException {	
 		Assert.assertTrue(main.getIntoProduct("משקולות יד דאמבלס משושה עם אחיזה נוחה לידיים"));
+	}
+	
+	/*  Prerequisite: Getting into product page
+	/*  	Given: Client is on a product page
+	 * 		When: Clicking on weight selector option and choosing the first weight
+	 *  	Then: Show weight selection and being able to add to cart the item
+	 *  Ofir, 02/03/2021
+	 */
+	
+	@Test(priority = 3, enabled = true, description = "Click on product weight and add to cart")
+	public void editProduct() throws InterruptedException, IOException {	
+		product.chooseWeight();
+	}
+	
+	
+	/*  Prerequisite: Getting into "https://www.idosport.co.il/"
+	/*  	Given: Client is on site  search page
+	 * 		When: Clicking on product
+	 *  	Then: Show product page
+	 *  Ofir, 02/03/2021
+	 */
+	
+	@Test(priority = 4, enabled = true, description = "Click on specific product")
+	public void addProductToCart() throws InterruptedException, IOException {	
+		
 	}
 	
 	
